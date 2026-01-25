@@ -9,7 +9,7 @@
     "start": "dapr run --app-id=nodeapp --dapr-http-port=3500 --app-port=3000 -- ts-node-dev --inspect --ignore-watch node_modules app.ts"
   },
   "dependencies": {
-    "dapr-client": "^0.7.0-preview01",
+    "dapr-client": "^0.12.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
